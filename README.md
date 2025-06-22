@@ -3,10 +3,6 @@
 ## 介绍
 + 恶魔轮盘赌的弹药记录工具
 
-## 启动参数
-+ background : 静默启动
-+ run : 启动时启用
-
 ## 打包命令
 ``` batch
 pip install nuitka
