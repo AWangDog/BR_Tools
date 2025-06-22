@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>214</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="LayoutAmmoTypeChoice">
+      <item>
+       <widget class="QLabel" name="LabelTrueAmmo">
+        <property name="text">
+         <string>实弹：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="ChoiceTrueAmmo"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="LabelFalseAmmo">
+        <property name="text">
+         <string>空弹：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="ChoiceFalseAmmo"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="LayoutAmmo">
+      <item>
+       <layout class="QHBoxLayout" name="LayoutFirstfourAmmo">
+        <item>
+         <layout class="QVBoxLayout" name="LayoutFirstAmmo">
+          <item>
+           <widget class="QLabel" name="LabelFirstAmmo">
+            <property name="text">
+             <string>第一枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="FirstAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutSecondAmmo">
+          <item>
+           <widget class="QLabel" name="LabelSecondAmmo">
+            <property name="text">
+             <string>第二枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="SecondAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutThirdAmmo">
+          <item>
+           <widget class="QLabel" name="LabelThirdAmmo">
+            <property name="text">
+             <string>第三枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="ThirdAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutFourthAmmo">
+          <item>
+           <widget class="QLabel" name="LabelFourthAmmo">
+            <property name="text">
+             <string>第四枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="FourthAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="LayoutSecondfourAmmo">
+        <item>
+         <layout class="QVBoxLayout" name="LayoutFifthAmmo">
+          <item>
+           <widget class="QLabel" name="LabelFifthAmmo">
+            <property name="text">
+             <string>第五枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="FifthAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutSixthAmmo">
+          <item>
+           <widget class="QLabel" name="LabelSixthAmmo">
+            <property name="text">
+             <string>第六枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="SixthAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutSeventhAmmo">
+          <item>
+           <widget class="QLabel" name="LabelSeventhAmmo">
+            <property name="text">
+             <string>第七枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="SeventhAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="LayoutEighthAmmo">
+          <item>
+           <widget class="QLabel" name="LabelEighthAmmo">
+            <property name="text">
+             <string>第八枪</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="EighthAmmo">
+            <item>
+             <property name="text">
+              <string>无</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>未知</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>空弹</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>实弹</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="LayoutAmmoNumberChoice">
+      <item>
+       <widget class="QLabel" name="LabelNowAmmo">
+        <property name="text">
+         <string>当前第0发：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="ChoiceNowAmmo">
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>8</number>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="LayoutCom">
+      <item>
+       <widget class="QLabel" name="LabelComAmmo">
+        <property name="text">
+         <string>剩余实弹0发，剩余空弹0发</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Reset">
+        <property name="text">
+         <string>重置</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
