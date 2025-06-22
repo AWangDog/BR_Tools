@@ -1,4 +1,4 @@
-# python -m nuitka --standalone --windows-console-mode=disable --mingw64 --output-dir=out --enable-plugin=pyside6 --windows-product-version=1.0 --remove-output --product-name=BRTools --file-description=BRTools --output-filename=BRTools --windows-icon-from-ico=bin\icon.ico main.py
+# python -m nuitka --standalone --windows-console-mode=disable --mingw64 --output-dir=out --enable-plugin=pyside6 --windows-product-version=1.1 --remove-output --product-name=BRTools --file-description=BRTools --output-filename=BRTools --windows-icon-from-ico=bin\icon.ico main.py
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QPalette, QColor, QIcon
@@ -14,7 +14,7 @@ class MyMainWindow(QMainWindow):
     def initUI(self):
         self.ui = uiLoader.load('bin\\main.ui')
         self.setCentralWidget(self.ui)
-        self.setWindowTitle("BR Tools")
+        self.setWindowTitle("BR Tools - v1.1")
         self.setWindowIcon(QIcon("bin\\icon.ico"))
         self.ui.ChoiceNowAmmo.valueChanged.connect(self.set_now_ammo)
         self.ammo = [[self.ui.LabelFirstAmmo, self.ui.FirstAmmo],
