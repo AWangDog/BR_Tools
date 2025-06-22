@@ -71,11 +71,11 @@ class MyMainWindow(QMainWindow):
                 self.now_true_ammo += 1
             elif j[1].currentText() == "空弹":
                 self.now_false_ammo += 1
-        if self.true_ammo - self.now_true_ammo == 0 and self.false_ammo - self.now_false_ammo == 1:
+        if self.true_ammo - self.now_true_ammo == 0 and self.false_ammo - self.now_false_ammo >= 1:
             for i,j in enumerate(self.ammo):
                 if j[1].currentText() == "未知":
                     j[1].setCurrentText("空弹")
-        elif self.true_ammo - self.now_true_ammo == 1 and self.false_ammo - self.now_false_ammo == 0:
+        elif self.true_ammo - self.now_true_ammo >= 1 and self.false_ammo - self.now_false_ammo == 0:
             for i,j in enumerate(self.ammo):
                 if j[1].currentText() == "未知":
                     j[1].setCurrentText("实弹")
